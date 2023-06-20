@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hostname and IP Address</title>
+</head>
+<body>
+<h1>Hostname and IP Address</h1>
+<p>The hostname of this computer is: <span id="hostname"></span></p>
+<p>The IP address of this computer is: <span id="ip_address"></span></p>
+<script>
+var hostname = location.hostname;
+var ip_address = location.ip;
+document.getElementById("hostname").innerHTML = hostname;
+document.getElementById("ip_address").innerHTML = ip_address;
+</script>
+</body>
+</html>
